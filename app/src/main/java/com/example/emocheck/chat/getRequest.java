@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class getRequest {
     private RequestQueue queue;
-    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCNfmLHxD0-6ID7ffYFvP3kw7Jk6v1_XRY";
+    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY_HERE";
 
     public getRequest(Context context) {
         queue = Volley.newRequestQueue(context);
